@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ltracker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.udvahana.www.ltracker.Ltracker">
+
+    <Button
+        android:text="@string/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_off"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/button_on"
+        android:layout_alignStart="@+id/button_on"/>
+
+    <Button
+        android:text="@string/button1"
+        android:layout_marginLeft="115dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:id="@+id/button_on"
+
+        android:layout_below="@+id/location_text"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="117dp"/>
+
+    <TextView
+        android:layout_marginTop="77dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
